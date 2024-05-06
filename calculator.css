@@ -1,0 +1,92 @@
+
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.735);
+}
+/* Container containing calculator */
+.flex-container{
+   height: 100vh;
+   display: flex;
+}
+
+/* Screen */
+.screen{
+    margin: auto;
+    height: 70px;
+    border-radius:  10px;
+    width: 95%;
+    border: 1px solid white;
+    margin-top: 10px;
+    color: white;
+    text-align: right;
+}
+.display{
+    position: relative;
+    top: 30px;
+    right: 7px;
+}
+
+/* Buttons  */
+.btn{
+    width: 50px ;
+    cursor: pointer;
+    color: white;
+    height: 30px;
+    border-radius: 50px;  
+    border:1px solid white;  
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.btn:hover{
+   background-color: white;
+   color: black;
+}
+.clearAll{
+    background-color: red;
+}
+.delete{
+    background-color: red;
+}
+.equal{
+    background: rgba(0, 154, 249, 0.74);
+}
+
+/* Buttons container */
+.buttons{
+    margin-top: 25px;
+    border-radius:  10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* calculator */
+.calculator{
+    height: 320px;
+    margin: auto;
+    width: 240px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px white;
+    background-color:rgba(0, 0, 0, 0.817);
+    border-radius:  10px;
+}
+
+/* credits */
+.credits{
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+.credits>a{
+    color: black;
+    text-decoration: none;
+}
+.credits>a:hover{
+    color: gray;
+}
+
+/* Responsive */
+@media (min-width: 768px){
+   
+}
